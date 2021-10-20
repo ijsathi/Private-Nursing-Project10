@@ -34,5 +34,23 @@
       "name": "Light Housekeeping ",
       "description": "Home cleaning, laundry, linen changes, caring for pets, etc.",
       "url": "https://www.careworldagency.org/wp-content/uploads/2017/04/cleaning-scaled-770x410.jpeg"
+    },
+    {
+      "id": 7,
+      "name": "Skin Care & Health",
+      "description": "These general skin care tips from dermatologists can benefit just about everyone. Apply sunscreen every day before you go outdoors.",
+      "url": "http://homehealthbeauty.in/wp-content/uploads/homemade-winter-face-packs-for-beautiful-skin.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Mental Health",
+      "description": "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act. Your health is our first priority",
+      "url": "https://i.guim.co.uk/img/media/8996e9f65b6114864071929d268eb70f48297f86/0_101_3000_1800/master/3000.jpg?width=465&quality=45&auto=format&fit=max&dpr=2&s=a750dfbc05d9e0b556ec10f33c752085"
+    },
+    {
+      "id": 9,
+      "name": "Old Man & Women Caring",
+      "description": "A qualitative study with the participation of ten elderly men, through responses to the semi-structured interview “Tell me about your experiences of care with your health”.",
+      "url": "https://s3-eu-central-1.amazonaws.com/hquality.com-images/wp-content/uploads/video-posters/2018/10/20/Sostegno-anziani-1-5bca87edd87e9.jpg"
     }
   ]

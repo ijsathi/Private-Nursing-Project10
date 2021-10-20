@@ -1,4 +1,4 @@
-const fakedata = [
+const fakedataService = [
     {
         id: 1,
         name: "Personal Care and Assistance",

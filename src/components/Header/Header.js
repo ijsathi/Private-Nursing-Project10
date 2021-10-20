@@ -1,8 +1,11 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import useAuth from '../../hooks/useAuth';
 import headerLogo from '../../images/logo/header-logo.webp';
 
 const Header = () => {
+    const {user, logOut} = useAuth();
     return (
         <>
             <Navbar bg="dark" variant="dark" sticky='top' collapseOnSelect expand="lg">
@@ -11,13 +14,34 @@ const Header = () => {
                 <Navbar.Toggle />
                 <Navbar.Collapse  className='justify-text-end fw-normal'>
                 <Nav className="me-auto ">
-                <Nav.Link style={{color:'white'}} href="#home">HOME</Nav.Link>
-                <Nav.Link style={{color:'white'}} href="#features">SERVICES</Nav.Link>
-                <Nav.Link style={{color:'white'}} href="#pricing">DIAGNOSES</Nav.Link>
-                <Nav.Link style={{color:'white'}} href="#pricing">FEATURES</Nav.Link>
-                <Nav.Link style={{color:'white'}} href="#pricing">ABOUT US</Nav.Link>
+                <Nav.Link>
+                <Link style={{color:'white', textDecoration:'none'}} to='/home'>Home</Link>
+                </Nav.Link>
+                <Nav.Link>
+                    <Link style={{color:'white', textDecoration:'none'}} to='/ourservices'>Services</Link> 
+                </Nav.Link>
+                <Nav.Link>
+                    <Link style={{color:'white', textDecoration:'none'}} to='/ourdoctors'>Doctors</Link> 
+                </Nav.Link>
+                <Nav.Link>
+                    <Link style={{color:'white', textDecoration:'none'}} to='/contactus'>Contact Us</Link> 
+                </Nav.Link>
+                <Nav.Link>
+                    <Link style={{color:'white', textDecoration:'none'}} to='/aboutus'>About Us</Link> 
+                </Nav.Link>
                 </Nav>
-                <Navbar.Brand href="#home"> <i className="fas fa-ambulance"></i>        <i className="fas fa-phone-alt">+1 234 567 8989</i><i className="fas fa-hand-holding-medical text-end ps-5"></i></Navbar.Brand>
+                {
+                 user.email && <span style={{color:'white'}}>{user.displayName} </span>
+                }
+               
+                {user?.email ?
+                    <button onClick={logOut}>Log out</button>:
+                    
+                    <Link style={{color:'white', textDecoration:'none'}} to='/login'>Login</Link> 
+                }
+                <Nav.Link>
+                    <Link style={{color:'white', textDecoration:'none'}} to='/signin'>Sign Up</Link> 
+                </Nav.Link>
                 </Navbar.Collapse>
             </Container>
             </Navbar>

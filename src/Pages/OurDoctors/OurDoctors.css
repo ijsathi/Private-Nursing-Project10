@@ -1,0 +1,13 @@
+.col1:hover{
+    color: white;
+    background: rgb(31, 29, 29) 0%;
+    background: -moz-linear-gradient(left, rgb(31, 29, 29) 0%, #08196d 100%);
+    background: -webkit-linear-gradient(left, rgb(31, 29, 29) 0%, #08196d 100%);
+    background: linear-gradient(to right, rgb(31, 29, 29) 0%, #08196d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08196d', endColorstr='rgb(31, 29, 29) 0%', GradientType=1);
+    position: relative;
+}
+.container2{
+    /* background-image: url('https://image.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg');
+    background-repeat: no-repeat; */
+}

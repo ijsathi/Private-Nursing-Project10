@@ -1,0 +1,51 @@
+.container1 h1{
+    position: relative;
+}
+.container1 h1:nth-child(1){
+    color: transparent;
+    -webkit-text-stroke: 2px #b1b4e2 ;
+}
+.contact-text{
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: -1.1px;
+}
+.font-size{
+    font-size: 40px;
+    color: rgb(2, 2, 56);
+    
+}
+.card-contact i{
+    align-items: center;
+}
+@media only screen and (max-width:600px){
+    .contact-text{
+        width: 320px;
+        align-items: center;
+    }
+    .contact-text img{
+        width: 100%;
+        align-items: center;
+    }
+}
+.row1{
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.row1:hover{
+    color: white;
+    background: rgb(31, 29, 29) 0%;
+    background: -moz-linear-gradient(left, rgb(31, 29, 29) 0%, #08196d 100%);
+    background: -webkit-linear-gradient(left, rgb(31, 29, 29) 0%, #08196d 100%);
+    background: linear-gradient(to right, rgb(31, 29, 29) 0%, #08196d 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#08196d', endColorstr='rgb(31, 29, 29) 0%', GradientType=1);
+    position: relative;
+}
+.card-contact i:hover{
+    background: white;
+}
+.contact-img img{
+    width: 350px;
+    height: 300px;
+}
