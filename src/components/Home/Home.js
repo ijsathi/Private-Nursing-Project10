@@ -86,7 +86,51 @@ const Home = () => {
       </div>
     </div>
   </div>
-            </div>
+            </div><br /><br />
+
+            {/* -------------------------------last part-------------------------------- */}
+            
+            <div class="row">
+              <h2 style={{textAlign:'center'}}>Caregivers</h2>
+  <div class="column colu">
+    <div class="card cati">
+      <img src="https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg" alt="Jane" style={{width:"100%"}}/>
+      <div class="container conti">
+        <h2>Jane Doe</h2>
+        <p class="title tit">CEO &amp; Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>ejane@gmail.com</p>
+        <p><button class="button butt">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column colu">
+    <div class="card cati">
+      <img src="https://image.freepik.com/free-photo/hospital-healthcare-workers-covid-19-treatment-concept-young-doctor-scrubs-making-daily-errands-clinic-listening-patient-symptoms-look-camera-professional-physician-curing-diseases_1258-57233.jpg" alt="Mike" style={{width:"100%"}}/>
+      <div class="container">
+        <h2>Mike Ross</h2>
+        <p class="title tit">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mika@gmail.com</p>
+        <p><button class="button butt">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column colu">
+    <div class="card cati">
+      <img src="https://image.freepik.com/free-photo/doctor-standing-with-folder-stethoscope_1291-16.jpg?1" alt="John" style={{width:"100%"}}/>
+      <div class="container">
+        <h2>John Doe</h2>
+        <p class="title tit">Denties</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>eavaoexample@.com</p>
+        <p><button class="button butt">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
             <Footer></Footer>
         </div>
     );
