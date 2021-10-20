@@ -37,10 +37,10 @@ const Header = () => {
                 {user?.email ?
                     <button onClick={logOut}>Log out</button>:
                     
-                    <Link style={{color:'white', textDecoration:'none'}} to='/login'>Login</Link> 
+                    <Link style={{color:'white', textDecoration:'none'}} to='/login'>Sign Up </Link> 
                 }
                 <Nav.Link>
-                    <Link style={{color:'white', textDecoration:'none'}} to='/signup'>Sign Up</Link> 
+                    <Link style={{color:'white', textDecoration:'none'}} to='/signup'>Login</Link> 
                 </Nav.Link>
                 </Navbar.Collapse>
             </Container>

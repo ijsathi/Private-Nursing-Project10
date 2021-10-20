@@ -63,7 +63,7 @@ const Login = () => {
         <div>
           <Header></Header>
             <Form onChange={toggleLogin} onSubmit={handleRegistration} className='w-25 mx-auto'>
-              <h2>Please Login</h2>
+              <h2>Please Sign Up</h2>
            <Form.Group className="mb-3 " controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control onBlur={handleEmailChange} type="email" placeholder="...@gmail.com" />
@@ -77,14 +77,14 @@ const Login = () => {
            </Form.Text>
             </Form.Group>
             <Button className='' variant="primary" type="submit">
-                                Register 
+                                Sign Up 
             </Button>
             <p><small style={{color:'red'}}>{err}</small></p>
             <input   className='form-check-input' type='checkbox' id='gridCheck1' />
             <label className='form-check-label ' htmlFor='gridCheck1'>
                Already Registered?
             </label>
-            {isLogin? <Link to='/signup'>sign up</Link>  :true}
+            {isLogin? <Link to='/signup'>login</Link>  :true}
             </Form>
             <br />
             <p className='d-flex justify-content-center'>-------or-------</p>
