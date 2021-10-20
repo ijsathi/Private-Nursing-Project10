@@ -78,7 +78,7 @@ const SignUp = () => {
             We'll never share your password with anyone else.
            </Form.Text>
             </Form.Group>
-            <Button className='' variant="primary" type="submit">
+            <Button variant="primary" type="submit">
                                 Login
             </Button>
             <p><small style={{color:'red'}}>{err}</small></p>
