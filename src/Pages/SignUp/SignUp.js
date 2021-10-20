@@ -62,16 +62,18 @@ const SignUp = () => {
     return (
         <div>
           <Header></Header>
-            <Form onChange={toggleLogin} onSubmit={handleRegistration} className='w-25 mx-auto'>
+           <div>
+           {/* className='container' style={{border:'2px solid green',height:'500px', width:'500px', textAlign:'center'}} */}
+           <Form onChange={toggleLogin} onSubmit={handleRegistration} className='w-25 mx-auto'>
               <h2>Login</h2>
            <Form.Group className="mb-3 " controlId="formBasicEmail">
               <Form.Label>Email address</Form.Label>
               <Form.Control onBlur={handleEmailChange} type="email" placeholder="...@gmail.com" />
             </Form.Group>
 
-            <Form.Group className="mb-3" controlId="formBasicPassword">
+            <Form.Group className="mb-3 " controlId="formBasicPassword">
                 <Form.Label>Password</Form.Label>
-                <Form.Control   onBlur={handlePasswordChange} type="password" placeholder="*******" />
+                <Form.Control style={{width:'260px'}}   onBlur={handlePasswordChange} type="password" placeholder="*******" />
            <Form.Text className="text-muted">
             We'll never share your password with anyone else.
            </Form.Text>
@@ -90,8 +92,9 @@ const SignUp = () => {
             <p className='d-flex justify-content-center'>-------or-------</p>
           <div className='d-flex justify-content-center'>
            <br />
-            <button onClick={handleGoogleLogin} >Google sign up</button>
+            <button onClick={handleGoogleLogin} ><img style={{width:'20px',style:'none'}} src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="" /> Google sign up</button>
           </div>
+           </div>
           <Footer></Footer>
         </div>
     );

@@ -34,7 +34,8 @@ const ContactUs = () => {
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                     <img src="https://media.istockphoto.com/photos/new-offices-picture-id137539172?s=612x612" className='img-fluid' alt="" />
                     <h3>Mahachaipetcharat Hospital</h3>
-                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><img style={{width:'50px', height:'50px', }} src="https://cdn-icons.flaticon.com/png/512/3567/premium/3567405.png?token=exp=1634742548~hmac=4c44843ab99568769d94d3fa5b75b47d" alt="" /></p>
+                
                 <p className='text-center'> 'D' block, BSMMU, Japan</p>
                 <h5 className='text-center'>Japan</h5>
                 < p className='text-center'><i className="far fa-envelope"></i> japan@gamil.com</p>
@@ -44,7 +45,7 @@ const ContactUs = () => {
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                 <img src="https://media.istockphoto.com/photos/modern-hospital-building-picture-id1312706413" className='img-fluid' alt="" />
                 <h3 className='text-center'>Our Main Office</h3>
-                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><img style={{width:'50px', height:'50px', }} src="https://cdn-icons-png.flaticon.com/512/3063/3063176.png" alt="" /></p>
                 <p className='text-center'>Chicago, China</p>
                 <h5 className='text-center'>China</h5>
                 < p className='text-center'><i className="far fa-envelope"></i> china@gamil.com</p>
@@ -54,7 +55,7 @@ const ContactUs = () => {
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                 <img src="https://image.freepik.com/free-photo/large-modern-office-building_1127-3072.jpg" className='img-fluid' alt="" />
                 <h3  className='text-center'>Japan East West Medical Collage Hospital</h3>
-                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><img style={{width:'50px', height:'50px', }} src="https://cdn-icons.flaticon.com/png/512/3567/premium/3567405.png?token=exp=1634742548~hmac=4c44843ab99568769d94d3fa5b75b47d" alt="" /></p>
                 <p className='text-center'> Shin Shin Japan, Japan</p>
                 <p className='text-center'>Japan</p>
                 < p className='text-center'><i className="far fa-envelope"></i> japan@gamil.com</p>
@@ -62,6 +63,34 @@ const ContactUs = () => {
                 <p  className='text-center'> <i className="fas fa-globe-europe"></i>     www.saveo.com</p>
             </div>
         </div>
+        <div class="container cont">
+            <h3>Write your information</h3>
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."/>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."/>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia"> Bangladesh</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Australia</option>
+      <option value="usa">India</option>
+      <option value="usa">China</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style={{height:"200px"}}></textarea>
+
+    <input type="submit" value="Submit"/>
+
+  </form>
+  </div>
+
             <Footer></Footer>
         </div>
     );

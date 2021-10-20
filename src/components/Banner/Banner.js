@@ -15,7 +15,7 @@ const Banner = () => {
                          <div className="col-lg-7 ">
                             <h1 className="text text-dark">Our Healthcare Offerings</h1>
                                 <p ><i>Healthcare innovations have enabled better care which has helped increase the global life expectancy significantly. But this is nowhere near the end of all healthcare troubles; the healthcare industry still faces several major setbacks like the inability to quickly respond to pandemics/epidemics, high treatment costs, stricter government regulations, lack of transparent healthcare systems and changing population dynamics. And to add to the industry's woes, the pace at which healthcare organizations are able to respond to these limitations is tediously slow. <small><p style={{color:"#043952"}}>_Saveo</p></small></i></p>
-                                <Navbar.Brand className=''> <i className="fas fa-ambulance"></i>        <i className="fas fa-phone-alt">+1 234 567 8989</i></Navbar.Brand><br /><br /> 
+                                <Navbar.Brand className=''> <img style={{width:'34px',style:'none'}} src="https://cdn-icons-png.flaticon.com/512/2991/2991352.png" alt="" /> <i className="fas fa-phone-alt">+1 234 567 8989</i></Navbar.Brand><br /><br /> 
                                 <Link to='*'><button className='btn btn-dark'>Learn more</button></Link>
                          </div>
                          <div className="col-lg-5">
@@ -39,7 +39,9 @@ const Banner = () => {
                                 <p ><small>We start by making the patient assessment and follow through. Directing the Home Care program every step of the way, until the patient is discharged.</small></p> 
                                 <h6>_Olivia Jackson </h6>
                                 <p><small><i>__𝒪𝓁𝒾𝓋𝒾𝒶 𝒥𝒶𝒸𝓀𝓈𝑜𝓃</i></small></p>
-                                <i className="fas fa-hand-holding-medical text-end ps-5"></i>
+                                {/* <i className="fas fa-hand-holding-medical text-end ps-5"></i> */}
+                                <img  style={{width:'34px',style:'none'}} src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="" />
+
                          </div>
                          
                   </div>

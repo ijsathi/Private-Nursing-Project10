@@ -27,10 +27,18 @@ const useFirebase = () =>{
             }
         })
     },[])
+    const [data, setData] = useState([]);
+
+    useEffect( () =>{
+        fetch('service.json')
+        .then(res => res.json())
+        .then(data => setData(data))
+    },[])
     return {
         user,
         singInUsingGoogle,
-        logOut
+        logOut,
+        data
     }
 }
 export default useFirebase;

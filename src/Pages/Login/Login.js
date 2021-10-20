@@ -90,7 +90,7 @@ const Login = () => {
             <p className='d-flex justify-content-center'>-------or-------</p>
           <div className='d-flex justify-content-center'>
            <br />
-            <button onClick={handleGoogleLogin} >Google sign in</button>
+            <button onClick={handleGoogleLogin} ><img style={{width:'20px',style:'none'}} src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="" /> Google sign in</button>
           </div>
           <Footer></Footer>
         </div>
