@@ -34,31 +34,31 @@ const ContactUs = () => {
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                     <img src="https://media.istockphoto.com/photos/new-offices-picture-id137539172?s=612x612" className='img-fluid' alt="" />
                     <h3>Mahachaipetcharat Hospital</h3>
-                <p className='text-center'><i class="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
                 <p className='text-center'> 'D' block, BSMMU, Japan</p>
                 <h5 className='text-center'>Japan</h5>
                 < p className='text-center'><i className="far fa-envelope"></i> japan@gamil.com</p>
-                <p className='text-center'><i class="fas fa-phone"></i>+01 32787 3232</p>
+                <p className='text-center'><i className="fas fa-phone"></i>+01 32787 3232</p>
                 <p  className='text-center'> <i className="fas fa-globe-europe"></i>     www.saveo.com</p>
             </div>
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                 <img src="https://media.istockphoto.com/photos/modern-hospital-building-picture-id1312706413" className='img-fluid' alt="" />
                 <h3 className='text-center'>Our Main Office</h3>
-                <p className='text-center'><i class="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
                 <p className='text-center'>Chicago, China</p>
                 <h5 className='text-center'>China</h5>
                 < p className='text-center'><i className="far fa-envelope"></i> china@gamil.com</p>
-                <p className='text-center'><i class="fas fa-phone"></i>+01 32787 3232</p>
+                <p className='text-center'><i className="fas fa-phone"></i>+01 32787 3232</p>
                 <p  className='text-center'> <i className="fas fa-globe-europe"></i>     www.saveo.com</p>
             </div>
             <div className="col-lg-4 col-md-4 row1 col-sm-4">
                 <img src="https://image.freepik.com/free-photo/large-modern-office-building_1127-3072.jpg" className='img-fluid' alt="" />
                 <h3  className='text-center'>Japan East West Medical Collage Hospital</h3>
-                <p className='text-center'><i class="fas fa-hospital font-size"></i></p>
+                <p className='text-center'><i className="fas fa-hospital font-size"></i></p>
                 <p className='text-center'> Shin Shin Japan, Japan</p>
                 <p className='text-center'>Japan</p>
                 < p className='text-center'><i className="far fa-envelope"></i> japan@gamil.com</p>
-                <p className='text-center'><i class="fas fa-phone"></i>+01 32787 3232</p>
+                <p className='text-center'><i className="fas fa-phone"></i>+01 32787 3232</p>
                 <p  className='text-center'> <i className="fas fa-globe-europe"></i>     www.saveo.com</p>
             </div>
         </div>

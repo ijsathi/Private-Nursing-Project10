@@ -24,63 +24,63 @@ const Home = () => {
             <About></About>
             <div className='container' style={{textAlign:'center'}}>
                 <h1>Wʜʏ Cʜᴏᴏꜱᴇ Uꜱ</h1>
-  <div  class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
-    <div class="col">
-      <div class="p-3 border bg-light">
-          <p><i class="fas fa-hand-holding-medical"></i></p>
+  <div  className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+    <div className="col">
+      <div className="p-3 border bg-light">
+          <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Home care as Easy as 1-2-3!</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>24/7 Availability</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Free In-Home Assessment</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Employee Model Agency</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>"Comfort Match" Guarantee</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Bonded and Qualified Caregivers</h5></div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Relax Environment</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-      <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+      <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Aging Care</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-    <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+    <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Home Health Manual</h5>
       </div>
     </div>
-    <div class="col">
-      <div class="p-3 border bg-light">
-    <p><i class="fas fa-hand-holding-medical"></i></p>
+    <div className="col">
+      <div className="p-3 border bg-light">
+    <p><i className="fas fa-hand-holding-medical"></i></p>
           <h5>Care Lovely</h5>
       </div>
     </div>

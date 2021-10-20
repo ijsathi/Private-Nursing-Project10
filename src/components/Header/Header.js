@@ -40,7 +40,7 @@ const Header = () => {
                     <Link style={{color:'white', textDecoration:'none'}} to='/login'>Login</Link> 
                 }
                 <Nav.Link>
-                    <Link style={{color:'white', textDecoration:'none'}} to='/signin'>Sign Up</Link> 
+                    <Link style={{color:'white', textDecoration:'none'}} to='/signup'>Sign Up</Link> 
                 </Nav.Link>
                 </Navbar.Collapse>
             </Container>

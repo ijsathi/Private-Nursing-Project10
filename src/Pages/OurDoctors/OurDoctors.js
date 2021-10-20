@@ -46,7 +46,7 @@ const OurDoctors = () => {
                              <h5 className="card-title">{dt.name}</h5>
                              <h6>{dt.subject}</h6>
                              <p className="card-text"><small>{dt.qualification}</small></p>
-                             <p><i class="fas fa-comments-dollar"></i>Visiter fee: {dt.fee}</p>
+                             <p><i className="fas fa-comments-dollar"></i>Visiter fee: {dt.fee}</p>
                             </div>
                         </div>
                       </div>

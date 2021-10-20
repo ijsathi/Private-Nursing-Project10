@@ -25,19 +25,19 @@ const Footer = () => {
                     <div className="single-footer">
                         <h4>Main Menu</h4>
                         <ul>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Home</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Services</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Diagnoses</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>About Us</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Contact Us</a></li>
+                            <li><a href="/"><i className="fas fa-chevron-right"></i>Home</a></li>
+                            <li><a href="/ourservices"><i className="fas fa-chevron-right"></i>Services</a></li>
+                            <li><a href="*"><i className="fas fa-chevron-right"></i>Diagnoses</a></li>
+                            <li><a href="/aboutus"><i className="fas fa-chevron-right"></i>About Us</a></li>
+                            <li><a href="/contactus"><i className="fas fa-chevron-right"></i>Contact Us</a></li>
                         </ul>
                     </div>
                     <div className="single-footer">
                         <h4>Quick Links</h4>
                         <ul>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Privacy</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Terms & Conditions</a></li>
-                            <li><a href=""><i className="fas fa-chevron-right"></i>Disclaim</a></li>
+                            <li><a href="/"><i className="fas fa-chevron-right"></i>Privacy</a></li>
+                            <li><a href="/"><i className="fas fa-chevron-right"></i>Terms & Conditions</a></li>
+                            <li><a href="/"><i className="fas fa-chevron-right"></i>Disclaim</a></li>
                         </ul>
                     </div>
                     <div className="single-footer">
