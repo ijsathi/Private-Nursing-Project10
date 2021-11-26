@@ -6,7 +6,7 @@
 https://saveo-private-nursing.netlify.app/
 
 ## Code Splitting(private)
-https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-ijsathi
+https://github.com/ijsathi/Private-Nursing-Project10
 
 ### why choice us?
 1. Home Care as easy as 1-2-3!
