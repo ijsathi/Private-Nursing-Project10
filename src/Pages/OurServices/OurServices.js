@@ -2,12 +2,11 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import './OurServices.css';
 
 const OurServices = () => {
     const [services, setOurServices] = useState([])
     useEffect(()=>{
-        fetch('./ourServices.json')
+        fetch('https://immense-stream-65020.herokuapp.com/service')
         .then(result=> result.json())
         .then(data=>setOurServices(data))
     },[])

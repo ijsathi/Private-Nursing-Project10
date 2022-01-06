@@ -30,7 +30,7 @@ const useFirebase = () =>{
     const [data, setData] = useState([]);
 
     useEffect( () =>{
-        fetch('service.json')
+        fetch('https://immense-stream-65020.herokuapp.com/service')
         .then(res => res.json())
         .then(data => setData(data))
     },[])

@@ -6,7 +6,7 @@ import './OurDoctors.css';
 const OurDoctors = () => {
     const [services, setOurServices] = useState([])
     useEffect(()=>{
-        fetch('doctor.json')
+        fetch('https://immense-stream-65020.herokuapp.com/doctors')
         .then(result=> result.json())
         .then(data=>setOurServices(data))
     },[])

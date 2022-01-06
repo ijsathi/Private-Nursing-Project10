@@ -5,7 +5,7 @@ const Services = () => {
     const [data, setData] = useState([]);
 
     useEffect( () =>{
-        fetch('service.json')
+        fetch('https://immense-stream-65020.herokuapp.com/service')
         .then(res => res.json())
         .then(data => setData(data))
     },[])
@@ -14,7 +14,7 @@ const Services = () => {
             <h1 className="course-title">𝙊𝙪𝙧 𝘾𝙖𝙧𝙚 𝙎𝙚𝙧𝙫𝙞𝙘𝙚𝙨</h1>
             <div className="row row-cols-1 row-cols-md-3 p-5 gy-4 " >
             {
-                data.map(dt =>
+                data.slice(0,6).map(dt =>
                     <div key={dt.id}>
                       <div className="col">
                         <div className="card h-100">
