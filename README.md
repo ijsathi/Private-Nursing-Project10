@@ -5,8 +5,11 @@
 ## Visit Our Site
 https://saveo-private-nursing.netlify.app/
 
-## Code Splitting(private)
+## Code Splitting
 https://github.com/ijsathi/Private-Nursing-Project10
+
+## Server link 
+https://github.com/ijsathi/Private-Nursing-Project10-server
 
 ### why choice us?
 1. Home Care as easy as 1-2-3!
